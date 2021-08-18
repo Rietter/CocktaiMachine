@@ -1,25 +1,6 @@
 
-/*
-3D Printable, Bluetooth controlled and low cost Robotic bartender - DIY Machines
-https://diymachines.co.uk/projects/how-to-build-an-arduino-diy-robotic-bartender.html
 
-==========
-The code and wiring diagram can be downloaded from here: https://diymachines.co.uk/projects/how-to-build-an-arduino-diy-robotic-bartender.html
-3D printed parts can be downloaded from here:  https://www.thingiverse.com/thing:2478890
-==========
-SAY THANKS:
-Buy me a coffee to say thanks: https://ko-fi.com/diymachines
-Support us on Patreon: https://www.patreon.com/diymachines
-
-SUBSCRIBE:
-■ https://www.youtube.com/channel/UC3jc4X-kEq-dEDYhQ8QoYnQ?sub_confirmation=1
-■ INSTAGRAM: https://www.instagram.com/diy_machines/?hl=en
-■ FACEBOOK: https://www.facebook.com/diymachines/
-*/
-
-//----------------------
-
-//The below is for the stepper motors
+// stepper motors
 
 #include <AFMotor.h>
 AF_Stepper motor1(48, 1);
@@ -28,7 +9,7 @@ int distanceToMove = 200;
 
 //---------------------
 
-// Below is for the RGB LED
+
 
 int greenPin = 10;
 int bluePin = A1;
